@@ -117,6 +117,11 @@ else:
     print("  Alpha3 - Hold")
     ema3_status='hold'
 
+print("")
+print(" -=-=-=-=-=-=- ")
+print("  Other trades ")
+print("")
+
 # IS the 8EMA over 21ema? - 7dte
 if  ema8 > ema21:
     print("  7dte - 8ema is over 21ema - Good to trade")
